@@ -19,6 +19,12 @@ int* GetSortedOrder(int a[MAX_ARRAY_SIZE], int sortType, int base);
 int GetStatistic(int sortType, int bucketNumber);
 
 //sorts an array of integers via counting sort
-void CountingSort(int arr[], int numOfElements, int numOfValues);
+void CountingSort(int arr[], int arrSize);
+
+//returns the number of distinct elements in an array
+int returnDistinct(int arr[], int arrSize);
+
+//returns the max value of array passed in
+int findMax(int arr[], int arrSize);
 
 #endif
